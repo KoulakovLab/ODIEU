@@ -106,7 +106,7 @@ with open("croissant.json", "w") as f:
   f.write("\n")  # Terminate file with newline
 
 dataset = mlc.Dataset(jsonld="croissant.json")
-records = dataset.records(record_set="jsonl")
+# records = dataset.records(record_set="jsonl")
 
 for i, record in enumerate(records):
   print(record)
