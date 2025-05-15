@@ -1,0 +1,13 @@
+{
+  "__version__": {
+    "sentence_transformers": "4.0.2",
+    "transformers": "4.51.2",
+    "pytorch": "2.6.0+cu124"
+  },
+  "prompts": {
+    "s2p_query": "Instruct: Given a web search query, retrieve relevant passages that answer the query.\nQuery: ",
+    "s2s_query": "Instruct: Retrieve semantically similar text.\nQuery: "
+  },
+  "default_prompt_name": null,
+  "similarity_fn_name": "cosine"
+}
